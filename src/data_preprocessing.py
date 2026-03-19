@@ -66,7 +66,6 @@ def preprocess_data(filepath):
     )
     
     # 3. Feature Engineering (NEW STEP)
-    # We create the 'physics clues' before capping and scaling.
     print("Performing feature engineering...")
     X_train_eng = feature_engineering(X_train)
     X_test_eng = feature_engineering(X_test)
